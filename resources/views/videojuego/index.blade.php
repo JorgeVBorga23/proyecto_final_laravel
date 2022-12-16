@@ -80,7 +80,7 @@
                         <div class="col-md-4 col-lg-3 mb-5">
                             <div class="card hover " style="width: 15rem; max-witdh: 15rem;background-color: #0000001e">
                                 <a href="{{ route('videojuego.show', ['id' => $videojuego->getId()]) }}">
-                                    <img style="pointer-events: none;" src="{{ asset('/storage/' . $videojuego->getImage()) }}">
+                                    <img style="pointer-events: none;" alt="xd" src="{{asset('/storage/'.$videojuego->getImage())}}">
                                     <div class="card-body text-center">
                                         <p class=" text-white">{{ $videojuego->getName() }} </p>
                                         <p
